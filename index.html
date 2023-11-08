@@ -8,7 +8,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     />
-    <link rel="stylesheet" href="css/style.production.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <script>
       src = "js/tota11y.min.js";
     </script>
@@ -31,44 +31,37 @@
       <nav class="main-navigation page-header_item">
         <ul role="menubar" class="navigation-list">
           <li>
-            <button class="button_nav">
-              <a
-                href="index.html"
-                class="navigation-list_item navigation-list_item--active"
-                role="menuitem"
-                >Home
-              </a>
-            </button>
+            <a
+              href="index.html"
+              class="button_nav navigation-list_item--active"
+              role="menuitem"
+              >Home
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="contact.html"
+              role="menuitem"
+              class="button_nav navigation-list_item navigation-list_item--active"
+              >Contact Me
+            </a>
           </li>
           <li>
-            <button class="button_nav">
-              <a
-                href="contact.html"
-                role="menuitem"
-                class="navigation-list_item navigation-list_item--active"
-                >Contact
-              </a>
-            </button>
+            <a
+              href="about.html"
+              role="menuitem"
+              class="button_nav navigation-list_item navigation-list_item--active"
+              >About Me
+            </a>
           </li>
           <li>
-            <button class="button_nav">
-              <a
-                href="about.html"
-                role="menuitem"
-                class="navigation-list_item navigation-list_item--active"
-                >About
-              </a>
-            </button>
-          </li>
-          <li>
-            <button class="button_nav">
-              <a
-                href="work.html"
-                role="menuitem"
-                class="navigation-list_item--active"
-                >My Projects</a
-              >
-            </button>
+            <a
+              href="work.html"
+              role="menuitem"
+              class="button_nav navigation-list_item--active"
+              >My Projects
+            </a>
           </li>
         </ul>
       </nav>
@@ -81,10 +74,9 @@
           My name is Hung Nguyen. I am a <span id="web">web</span> developer
           from Arizona.
         </p>
-
-        <button type="button" style="left: 10px">
-          <a id="button1_link" href="work.html"> My Projects</a>
-        </button>
+        <a class="button_nav" id="button1_link" href="work.html">
+          Come Look at my Work!
+        </a>
         <div id="hanoiimg">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -546,7 +538,6 @@ c52 -3 97 -2 98 2 2 4 1 19 -2 32 -6 24 -9 25 -106 25 -82 0 -100 -3 -100 -15z"
         </div>
       </div>
     </main>
-
     <footer class="page-footer">
       <p>Find me on:</p>
       <div>
