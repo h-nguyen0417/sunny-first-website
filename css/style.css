@@ -112,7 +112,7 @@ a:focus {
 }
 a:visited {
   /* visted link */
-  color:/*teal*/ var(--white);
+  color:/*teal*/ var(--yellow);
 }
 a:active {
   /* selected link */

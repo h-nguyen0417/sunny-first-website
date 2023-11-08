@@ -69,7 +69,7 @@
         <div id="headingcontact">
           <h3>Get in Touch With Me!</h3>
         </div>
-        <form action method="post">
+        <form method="post">
           <div>
             <label class="standard-label" for="fname-input">First Name:</label>
             <input type="text" id="fname-input" required />
@@ -92,14 +92,10 @@
             /> -->
           </div>
           <div id="message-forum">
-            <button>
-              <label class="standard-label" for="contact-message" for>
-                <input type="submit" value="Send Message" required
-              /></label>
-            </button>
-
+              <label class="standard-label" for="contact-message" >
+                <input type="submit" id ="contact-message" value = "Send Message" />
+            </label>
             <textarea
-              id="contact-message"
               cols="30"
               rows="5"
               maxlength="100"
