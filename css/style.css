@@ -175,10 +175,6 @@ button:focus {
   background-color:/*Yellow*/ var(--darker-grey);
   color:/* Dark Grey*/ var(--darker-grey);
 }
-.button_nav {
-  background-color:/*Yellow*/ var(--secondary-color);
-  color:/* Dark Grey*/ var(--darker-grey);
-}
 
 .navigation-list_item--active {
   text-decoration: none;
